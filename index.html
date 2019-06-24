@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>[简历]薛冰-Java开发工程师/南京</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+<header class="header"></header>
+
+<article class="container">
+    <section class="side" id="side">
+
+        <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+        <label class="switch" style="display: none;" onchange="switchFixed()">
+            <script type="text/javaScript">
+                function switchFixed() {
+                    var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                    document.getElementById('side').style.position = value;
+                }
+            </script>
+            <input id="cb" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <style>
+            @media (min-width: 414px) {
+                .switch {
+                    position: relative;
+                    display: inline-block !important;
+                    width: 60px;
+                    height: 34px;
+                }
+
+                .switch input {
+                    display: none;
+                }
+
+                .slider {
+                    position: absolute;
+                    cursor: pointer;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: #ccc;
+                    -webkit-transition: .4s;
+                    transition: .4s;
+                }
+
+                .slider:before {
+                    position: absolute;
+                    content: "";
+                    height: 26px;
+                    width: 26px;
+                    left: 4px;
+                    bottom: 4px;
+                    background-color: white;
+                    -webkit-transition: .4s;
+                    transition: .4s;
+                }
+
+                input:checked + .slider {
+                    background-color: #1abc9c;
+                }
+
+                input:focus + .slider {
+                    box-shadow: 0 0 1px #1abc9c;
+                }
+
+                input:checked + .slider:before {
+                    -webkit-transform: translateX(26px);
+                    -ms-transform: translateX(26px);
+                    transform: translateX(26px);
+                }
+
+                .slider.round {
+                    border-radius: 34px;
+                }
+
+                .slider.round:before {
+                    border-radius: 50%;
+                }
+            }
+        </style>
+        <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+        <!-- 个人肖像 -->
+        <section class="me">
+            <section class="portrait">
+                <div class="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- 头像照片 -->
+                <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+            </section>
+
+            <h1 class="name">薛冰</h1>
+            <h4 class="info-job">Java开发工程师 / 南京</h4>
+
+        </section>
+
+        <!-- 基本信息 -->
+        <section class="profile info-unit">
+            <h2>
+                <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <label>个人信息</label>
+                    <span>薛冰 / 男 / 24岁</span>
+                </li>
+                <li>
+                    <label>出生籍贯</label>
+                    <span>江苏徐州</span>
+                </li>
+                <li>
+                    <label>获得学位</label>
+                    <span>理学学士</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="contact info-unit">
+            <h2>
+                <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <label>手机</label>
+                    <a href="tel:183-6282-2048" target="_blank">183-6282-2048</a>
+                </li>
+                <li>
+                    <label>邮箱</label>
+                    <a href="18362822048@163.com" target="_blank">18362822048@163.com</a>
+                </li>
+                <li>
+                    <label>Github主页</label>
+                    <a href="https://github.com/Aresxue" target="_blank">https://github.com/Aresxue</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 技能点 -->
+        <section class="skill info-unit">
+            <h2>
+                <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <label>Spring原理</label>
+                    <progress value="90" max="150"></progress>
+                </li>
+                <li>
+                    <label>Spring Boot</label>
+                    <progress value="90" max="150"></progress>
+                </li>
+                <li>
+                    <label>Spring Cloud</label>
+                    <progress value="85" max="150"></progress>
+                </li>
+                <li>
+                    <label>Nginx</label>
+                    <progress value="85" max="150"></progress>
+                </li>
+                <li>
+                    <label>Mysql</label>
+                    <progress value="85" max="150"></progress>
+                </li>
+                <li>
+                    <label>数据结构</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>JVM设计</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>线程安全</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>Linux命令</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>服务发布</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>持续集成</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>版本管理Git</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>消息队列</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>ELK日志组件</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>redis</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>elasticsearch</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>Python</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+                <li>
+                    <label>接口自动化测试</label>
+                    <progress value="70" max="150"></progress>
+                </li>
+            </ul>
+        </section>
+
+        <section class="qrcode info-unit">
+            <h2><i class="fa fa-qrcode" aria-hidden="true"></i>联系方式</h2>
+            <hr/>
+            <img src="assets/images/wechat_link.jpg" style="width: 100%;" alt="">
+        </section>
+
+        <!-- 技术栈 -->
+        <!-- <div class="stack info-unit">
+                <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>前端</label>
+                        <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
+                    </li>
+                    <li>
+                        <label>后端</label>
+                        <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
+                    </li>
+                    <li>
+                        <label>其他</label>
+                        <span>Git、SVN、Markdown</span>
+                    </li>
+                </ul>
+            </div> -->
+    </section>
+
+    <section class="main">
+
+        <!-- 教育经历 -->
+        <section class="edu info-unit">
+            <h2>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <h3>
+                        <span>扬州大学   &nbsp;&nbsp;&nbsp;&nbsp;信息与计算科学专业 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本一</span>
+                        <time>2013.9 ～ 2017.6</time>
+                    </h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 工作经历 -->
+        <section class="work info-unit">
+            <h2>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <h3>
+                        <span >就职时间: 2017.07 ～ 2019.03</span>   <br>
+                        <br>
+                        <span>公司: 深圳天源迪科信息技术股份有限公司</span>
+                        <br>
+                        <span>职位: Java后端开发工程师</span>
+                        <br>
+                        <span >入职职位月薪: 6k * 13</span>
+                        <br>
+                        <span >离职职位月薪: 9k * 15</span>
+                        <br>
+                        <span >行业类别: 通信/电信运营、增值服务|企业性质：民营|规模：1000-9999人</span>
+                    </h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 项目经验 -->
+        <section class="project info-unit">
+            <h2>
+                <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <h3>
+                        <span><b>物联网IOT GATEWAY</b></span>
+                        <time>2017.09 ～ 2018.06</time>
+                    </h3>
+                    <ul class="info-content">
+                        <li><b>项目简介</b>:&nbsp;&nbsp;此项目甲方为中国联合网络通信集团有限公司（简称“中国联通”），乙方包括天源迪科、东软集团、亚信科技，本质上为能力开放平台，上游对接物联网应用层，我司项目开发共分为两期，目前项目一期已经交付并上线，一期项目开发经费为720万。</li>
+                        <li><b>开发环境及技术</b>:&nbsp;&nbsp;IntelliJ IDEA、Spring Cloud、Mysql、Redis、Rhino、Mybatis、Cas、Shiro</li>
+                        <li><b>项目描述</b>:&nbsp;&nbsp;此项目前端使用vue.js + Bootstrap ，选取Spring Cloud作为后端基础的微服务架构。
+                            根据用户群体可划分为能力门户和运营门户，能力门户开放到公网供企业级用户访问浏览，运营门户为内部运营人员使用。
+                            根据业务拆分为八个模块，包括单点登录、权限控制、能力门户Web、运营门户Web、能力管理、报表账单、短信验证码、定时任务。所有模块统一注册到Spring Cloud的Eureka中心，通过Http通讯完成不同模块的交互。
+                            其中能力门户Web、运营门户Web作为分布式架构中的表现层，其余模块皆有独立的业务层和数据访问层，业务层分为Function（功能）层和Business（业务）层，对其它模块统一暴露为功能层，功能层中做参数校验、参数提取、异常处理等通用化操作，调用业务层，业务层处理更为细致的业务逻辑，并调用数据访问层将业务数据持久化到数据库。
+                            数据访问层使用Mybatis（Spring Boot版），数据库为Mysql 5.7。数据库设计中拆除了所有外键，业务关联皆通过第三方表，数据删除统一为软删除（字段标识），不使用浮点数（统一使用整型如有需要将其在Java代码中转换），数据库主键非mysql自增主键统一使用独立的一张表维护。数据库引擎为支持事务的Innodb，Java代码中使用Spring事务，支持声明式事务和编码型事务。
+                            日志使用Spring Boot自带的log4j，日志输出目录和日志级别都有严格规范。
+                            项目实际共有四套环境——开发、测试、沙箱、生产使用Git进行版本管理，严格按照开发->测试->沙箱->生产的流程进行迭代有效地保障了项目生产中客户的使用。
+                            项目发布使用Jenkins进行持续集成，极大简化了发版工作。在项目后端使用了python进行接口自动化测试，在持续集成中项目发布后会自动对后台接口进行单元测试。</li>
+                    <li><b>工作内容:</b>&nbsp;&nbsp;<br>
+                        1.开发人员，开发了大约三十多个接口并将其以Restful形式提供了出去; <br>
+                        2.自动化测试工作管理，使用Python进行自动化测试，并教授其它同事编写Python测试脚本，随后以统一入口方式集成并将测试结果以Html展示; <br>
+                        3.JavaScript脚本编写，发布在我们项目中的能力的业务逻辑更新迭代较快，因此核心业务逻辑以JavaScript脚本完成（可在页面配置），故对于需要升级的能力需要编写JavaScript替换原有逻辑，本人处理编写脚本以外，还负责该块工作的分派、监察、整理和汇报; <br>
+                        4.服务发布和故障排查。</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>
+                        <span><b>红包</b></span>
+                        <time>2018.07 ～ 2019.03</time>
+                    </h3>
+                    <ul class="info-content">
+                        <li><b>项目简介</b>:&nbsp;&nbsp;本项目甲方为中国联合网络通信集团有限公司（简称“中国联通”），乙方为北京天源迪科信息技术股份有限公司（我司下辖全资子公司），一期投入40人，项目经费为1200万，目前开始进行二期，二期预计投入69人，预算三年内完成五期，项目经费为5000万。项目两周一个迭代，采用敏捷开发的的模式，分为四个敏捷小组。</li>
+                        <li><b>开发环境及技术</b>:&nbsp;&nbsp;Spring + Mybatis + HSF（淘系RPC框架）、阿里云数据库、Redis、阿里消息队列、kafka、阿里OSS存储</li>
+                        <li><b>项目描述</b>:&nbsp;&nbsp;项目分为四个模块，电子券、kafka业务、渠道运营、存量运营
+                            本人分属于存量运营，但其他模块的部分开发亦有涉及。
+                            在架构师指导下使用公司内部封装jar搭建项目架构，分为公共基础模块base、工具模块took-kit、对外服务模块unified-jump、定时任务模块task、核心业务模块stock，每个模块下又分为function（功能）层api、function（功能）层实现、busi（业务）层api、busi（业务）层实现、jar版本管理模块、service（服务）层、web层。其中service层为服务统一集成，将功能层和业务层服务集成并统一暴露为HSF服务，web层为Http调用入口，通过hsf调用service层服务。
+                            日志严格区分，通过切面将业务层、功能层、MQ相关、切面相关、定时任务的日志以及它们错误的日志都输出到不同文件，使日志更为规范化且十分有利于后期排查错误。
+                            数据库使用阿里云数据库DRDS（其自带分库分表），按照功能进行分库，分为交易库、业务库、权限库、配置库，主键统一使用阿里数据库自带序列。
+                            文件存储使用阿里OSS。
+                            异步处理使用阿里消息队列RocketMQ，支持实时消息、延时消息、定时消息、事务消息、顺序消息，且阿里提供了一系列配套运维工具，如消息查看、消息验证、位点重置等。
+                            Redis用于并发处理、分布式信息处理等。
+                            定时任务使用当当网的elastic-job（会依赖于Zookeeper），项目中使用的是lite无中心化版本，有可视化的管理页面。
+                            项目发布使用Jenkins进行了持续集成。
+                        <li><b>工作内容:</b>&nbsp;&nbsp;<br>
+                        1.开发小组长。当前版本开始（上一个版本上线结束）时参与需求分析进行功能拆分，分配开发任务，并进行代码版本分支管理以及上线checkList（上线配置如sql、topic、nginx、外网配置等）准备，统一管理开发组员与外围系统人员的联系；<br>
+                        2.开发人员，负责存量运营各个模块的迭代优化和新需求的设计与开发，需求少时会参与其它模块的编码；<br>
+                        3.负责研发环境、测试环境的搭建以及负载的配置和持续集成的配置，处理环境问题如maven私服、maven打包失败、项目启动异常等；<br>
+                        生产环境的问题定位以及人工补救的措施；</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 自我评价 -->
+        <section class="work info-unit">
+            <h2>
+                <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+            <hr/>
+            <p>本人拥有良好的责任心和上进心，每每能在项目需要的时刻挺身而出。<br>
+                交流能力和沟通能力也在工作中有了极大的进步，无论是在组内还是跨部门之间都能迅速地建立起共同语言，行之有效地完成高效的沟通。<br>
+                在项目工作中思维清晰，能够迅速地理清业务流程和业务逻辑，并将业务迅速可靠地转化为开发。<br>
+                在担任开发组长的工作中，我的领导和组织能力也有了很大的成长，对整个项目的协同性和业务流转也有了更深刻的见解。<br>
+                个人平时性格很随和，在工作时间习惯于沉默，但非工作时间也颇为健谈，可以飞快地融入集体。<br>
+                在处理工作事务方面很是耐心，面对各种环境和情形都有极大的承受力和耐力，敢于直面并克服一切困难。</p>
+        </section>
+    </section>
+</article>
+
+
+<footer class="footer">
+    <p>© 2019 薛冰.文档最后更新时间为
+        <time>2019年06月24日</time>
+        .
+    </p>
+</footer>
+
+<!-- 侧栏 -->
+<aside>
+    <ul>
+        <li>
+            <a href="http://t.cn/E98wQUI" target="_blank">个人博客</a>
+        </li>
+    </ul>
+</aside>
+
+<script src="./assets/js/index.js"></script>
+</body>
+
+</html>
