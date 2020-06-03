@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a58a667-4ad8-461d-b5ad-44e125b930dd" name="Default" comment="">
+    <list default="true" id="4a58a667-4ad8-461d-b5ad-44e125b930dd" name="Default" comment="简单更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,6 +23,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -81,7 +83,8 @@
       <workItem from="1562395293471" duration="76000" />
       <workItem from="1572162920930" duration="480000" />
       <workItem from="1587449408269" duration="1653000" />
-      <workItem from="1587521848968" duration="1795000" />
+      <workItem from="1587521848968" duration="3164000" />
+      <workItem from="1591157130338" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="提交个人简历">
       <created>1561364878625</created>
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572163385336</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="简单更新">
+      <created>1587524915476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587524915476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,21 @@
     <MESSAGE value="干掉readme.md" />
     <MESSAGE value="借用github传图片" />
     <MESSAGE value="修复bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复bug" />
+    <MESSAGE value="简单更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1587524908439">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587524908439" />
+    <state x="230" y="96" key="Vcs.Push.Dialog.v2" timestamp="1587524920327">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="230" y="96" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1587524920327" />
+    <state x="422" y="263" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587527569637">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="422" y="263" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.720@0.0.1280.720" timestamp="1587527569637" />
   </component>
 </project>
